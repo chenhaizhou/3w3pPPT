@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>3周3页面</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -41,334 +41,506 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<div class="logo">
+						<strong>Thought</strong>Works<sup>®</sup>
+					</div>
+					<h1>3周3页面</h1>
+					<h3>HTML,CSS</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created by <a href="http://blog.c-hz.cn">Haizhou Chen</a>, <a href="">Jia Xie</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
+					<h2>HTML</h2>
+					<p>HyperText Markup Language</p>
+				</section>
+
+				<section>
+					<section>
+						<h3>Phrase</h3>
+						<pre class="fragment roll-in"><code><p>text</p></code></pre>
+					</section>
+					<section>
+						<h3>Backbone</h3>
+						<div>
+							<pre class="fragment roll-in"><code>&lt;!doctype html&gt;
+&lt;html&gt;
+	<header>
+		<meta />
+		<title></title>
+		<link />
+		<script></script>
+	</header>
+	&lt;body&gt;
+		content
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+						</div>
+					</section>
+					<section>
+						<h3>Block Tags</h3>
+						<p>
+							div,ol,ul,li,dl,dt,dd,p
+							<br />
+							h1,h2,h3,h4,h5,h6
+						</p>
+					</section>
+					<section>
+						<h3>Inline Tags</h3>
+						<p>
+							span,strong,em,a
+						</p>
+					</section>
+					<section>
+						<h3>Form</h3>
+						<p>form,label,select,textarea,button</p>
+						<p>input[text,password,radio,checkbox,button]</p>
+					</section>
+					<section>
+						<h3>Other</h3>
+						<p>meta,link,stype,script,img,br,table,tr,th,td</p>
+						<p>&amp;nbsp;,&amp;copy;</p>
+					</section>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
+					<h2>CSS</h2>
+					<p>Cascading Style Sheets</p>
+				</section>
+				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
+						<h3>Block</h3>
+						<p>Block hava Dimensions</p>
+						<ul>
+							<li>width,max-width,min-width</li>
+							<li>height,max-height,min-height</li>
+							<li>margin</li>
+							<li>padding</li>
+						</ul>
 					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<h3>Inline</h3>
+						<p>margin-left, margin-right</p>
 					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
+					<section>
+						<h3>Inline-Block</h3>
+						<p>具有block的样式特性而表现得像inline</p>
+					</section>
+					<section>
+						<h3>DISPLAY</h3>
+						<p class="highlight-blue">display:block <span class="t-gray">|</span> inline <span class="t-gray">|</span> inline-block <span class="t-gray">|</span> table</p>
+						<div class="fragment roll-in">
+							<img src="images/display.png" alt="">
+						</div>
+					</section>
+					<section>
+						<h3>Box-model</h3>
+						<div>
+							<img src="images/box-model.png" alt="">
+						</div>
+						<pre class="fragment roll-in"><code>margin: 10px;
+padding: 10px;
+border: 1px solid green;
+width: 100px;
+height: 50px;
+</code></pre>
+					</section>
 				</section>
 
 				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+					<section>
+						<h2>SELECTORS</h2>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+					<section>
+						<h3 class="vs">ID</h3>
+						<p class="t-gray">#warp</p>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					<section>
+						<h3 class="vs">CLASS</h3>
+						<p class="t-gray">.item</p>
 					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+					<section>
+						<h3 class="vs">ELEMENT</h3>
+						<p class="t-gray">div</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>BASIC</h2>
+
+					</section>
+					<section>
+						<h3>padding</h3>
+						<ul>
+							<li>padding-top</li>
+							<li>padding-right</li>
+							<li>padding-bottom</li>
+							<li>padding-left</li>
+						</ul>
+						<p class="fragment roll-in t-gray">margin: top right bottom left</p>
+					</section>
+					<section>
+						<h3>margin</h3>
+						<ul>
+							<li>margin-top</li>
+							<li>margin-right</li>
+							<li>margin-bottom</li>
+							<li>margin-left</li>
+						</ul>
+						<p class="fragment roll-in t-gray">margin: 0 auto</p>
+					</section>
+					<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+						<h3>background</h3>
+						<ul>
+							<li>background-color</li>
+							<li>background-image</li>
+							<li>background-position</li>
+							<li>background-repeat</li>
+						</ul>
+						<p class="fragment roll-in t-gray">background: color image repeat position</p>
+					</section>
+					<section>
+						<h3>border</h3>
+						<ul>
+							<li>border-width</li>
+							<li>border-style</li>
+							<li>border-color</li>
+						</ul>
+						<p class="fragment roll-in t-gray">border: width style color</p>
+						<style>
+						.bor1 {width:0;height:0;margin:40px auto!important;border-width:40px!important;border-style: solid!important;border-color:#36e #f60 #c00 #0f0!important;}
+						</style>
+						<div class="fragment roll-in bor1"></div>
+					</section>
+					<section>
+						<h3>outline</h3>
+						<ul>
+							<li>outline-width</li>
+							<li>outline-style</li>
+							<li>outline-color</li>
+						</ul>
+						<p class="fragment roll-in t-gray">outline: 5px solid #69f</p>
+						<style>
+						.out2 {width:300px;height:40px;margin:40px auto!important;border-width:1px!important;border-style: solid!important;border-color:#f00!important;}
+						.out1 {outline: 5px solid #69f!important;}
+						</style>
+						<input class="fragment roll-in out2 out1">
+					</section>
+					<section>
+						<h3>Length Units</h3>
+						<p>px, em, rem</p>
+					</section>
+
+					<section>
+						<h3>color</h3>
+						<ul>
+							<li>English Name</li>
+							<li>#000000 - #FFFFFF</li>
+							<li>RGB(0, 128, 255)</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>font</h3>
+						<ul>
+							<li>font-family</li>
+							<li>font-size</li>
+							<li>font-style</li>
+							<li>font-weight</li>
+							<li>line-height</li>
+							<li>letter-spacing</li>
+						</ul>
+						<p class="fragment roll-in t-gray">font: style weight size/line-height family</p>
+					</section>
+					
+					<section>
+						<h3>other text</h3>
+						<ul>
+							<li>text-align</li>
+							<li>text-decoration</li>
+							<li>text-indent</li>
+							<li>text-overflow</li>
+							<li>white-space</li>
+							<li>word-break</li>
+							<li>vertical-align</li>
+						</ul>
+					</section>
+					
+				</section>
+
+				<section>
+					<section>
+						<h3>list</h3>
+						<ul>
+							<li>list-style</li>
+						</ul> 
+					</section>
+					<section>
+						<h3>table</h3>
+						<ul>
+							<li>border-collapse</li>
+							<li>border-spacing</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>float</h3>
+						<p>float: left | right | none</p>
+						<div style="margin:0 -100px">
+							<span class="fragment roll-in t-gray">
+								<img src="images/f1.png" alt="">
+							</span>
+							<small class="fragment roll-in t-gray" style="margin:0 10px;margin-top:100px;">
+								.div2 {float:left;}
+							</small>
+							<span class="fragment roll-in t-gray">
+								<img src="images/f2.png" alt="" style="vertical-align:top">
+							</span>
+						</div>
+					</section>
+					<section>
+						<h3>clear</h3>
+						<p>clear: none | left | right | both</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>POSITION</h2>
+					</section>
+					<style>
+						.c-p {width:162px;height:162px;margin:40px auto 0!important;position:relative;}
+						.c-p-1 {width:160px;height:160px;border:1px solid #ccc!important;position:absolute;left:20px;top:-20px;line-height:160px!important;font-size:14px!important;}
+						.c-p-2 {width:160px;height:160px;border:1px dotted #666!important;position:relative;}
+					</style>
+					<section>
+						<h3 class="vs">RELATIVE</h3>
+						<p>position:<span class="t-blue">relative</span></p>
+						<p class="fragment roll-in t-gray">相对定位以自身为参照物做偏移</p>
+<pre class="fragment roll-in"><code>.c-p-1 {
+	width:100px;
+	height:100px;
+	border:1px dotted #ccc;
+	position:relative;
+	left:20px;
+	top:-20px;
+}</code></pre>
+						<div class="fragment roll-in c-p">
+							<div class="c-p-2"></div>
+							<div class="fragment roll-in c-p-1">relative</div>
+						</div>
+					</section>
+					<style>
+						.c-pa {width:300px;height:200px;margin:40px auto 0!important;position:relative;background-color:#333!important;}
+						.c-p-3 {width:160px;height:160px;border:1px solid #ccc!important;position:absolute;bottom:0;right:20px;line-height:160px!important;font-size:14px!important;}
+					</style>
+					<section>
+						<h3 class="vs">ABSOLUTE</h3>
+						<p>position:<span class="t-blue">absolute</span></p>
+						<p class="fragment roll-in t-gray">绝对定位以最近的拥有position属性的祖先为参照物做偏移</p>
+<pre class="fragment roll-in"><code>.c-p-3 {
+	width:100px;
+	height:100px;
+	border:1px dotted #ccc;
+	position:absolute;
+	right:20px;
+	bottom:0;
+}</code></pre>
+						<div class="fragment roll-in c-pa">
+							<div class="c-p-4"></div>
+							<div class="fragment roll-in c-p-3">absolute</div>
+						</div>
+					</section>
+					<section>
+						<h3 class="vs">FIXED</h3>
+						<p>position:<span class="t-blue">fixed</span></p>
+						<p class="fragment roll-in t-gray">固对定位以浏览器内容显示区窗口为参照物做偏移</p>
+					</section>
+					<section>
+						<h3>top, right, bottom, left</h3>
+					</section>
+					<style>
+					.c-pz {width:300px;height:200px;margin:40px auto 0!important;position:relative;background-color:#333!important;}
+					.c-z {
+	width:160px;
+	height:160px;
+	position:absolute;
+	font-size:14px!important;
+	line-height:160px!important;
+}
+.c-z-1 {background-color:#369;top:0;left:0;z-index:2;}
+.c-z-2 {background-color:#c00;right:0;bottom:0;z-index:1;}
+					</style>
+					<section>
+						<h3>Z-INDEX</h3>
+						<pre class="fragment roll-in"><code>.c-z {
+	width:100px;
+	height:100px;
+	border:1px dotted #ccc;
+	position:absolute;
+}
+.c-z-1 {background-color:#369;top:0;left:0;z-index:2;}
+.c-z-2 {background-color:#c00;right:0;bottom:0;z-index:1;}
+</code></pre>
+						<div class="fragment roll-in c-pz">
+							<div class="c-z c-z-1">z-index:2</div>
+							<div class="c-z c-z-2">z-index:1</div>
 						</div>
 					</section>
 				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
+					<h3>OVERFLOW</h3>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li class="highlight-blue">visible</li>
+						<li>hidden</li>
+						<li>scroll</li>
+						<li>auto</li>
+					</ul>
+					<p class="fragment roll-in t-gray">overflow-x, overflow-y</p>
+				</section>
+
+				<section>
+					<h3>Transparent</h3>
+					<ul>
+						<li>opacity</li>
+						<li>filter: alpha(opacity=100)</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
+					<section>
+						<h2>EXTEND</h2>
+						<p></p>
+					</section>
+					<section>
+						<h3>DEFAULT</h3>
+						<p class="highlight-blue">font, text, line-height, color, list-style-*...</p>
+					</section>
+					<section>
+						<h3>inherit</h3>
+						<p></p>
+					</section>
+					<section>
+						<h3>优先级</h3>
+						<p>STYLE <span class="highlight-blue">&gt;</span> #ID<span class="highlight-blue">&gt;</span> .CLASS<span class="highlight-blue">&gt;</span> ELEMENT</p>
+					</section>
+					<style>
+						#warp {color:red}
+						.c1 {color:blue; font-style:italic!important;}
+						.c2 {color:green}
+					</style>
+				</section>
+				<section  data-markdown>
+						
+						<div>
+
+							<script type="text/template">
+							###继承和权重###
+							```css	
+							#warp {color:red}
+							.c1 {color:blue; font-style:italic;}
+							.c2 {color:green}
+							```
+							```html
+							<div id="warp" class="c1 c2">text</div>
+							```
+							<div id="warp" class="c1 c2 fragment roll-in">text</div>
+							</script>
+						</div>
+						<p>&lt;div id="warp" class="c1 c2"&gt;&lt;/div&gt;</p>
+					</section>
+				<section>
+					<scrtion>
+						<h2>PSEUDO CLASSES</h2>
+						<p>
+							A pseudo-class is used to define a special state of an element.
+						</p>
+					</section>
+					<section>
+						<h3>a</h3>
+						<ol>
+							<li>:link</li>
+							<li>:visitied</li>
+							<li>:hover</li>
+							<li>:active</li>
+						</ol>
+					</section>
+					<section>
+						<h3>form</h3>
+						<ul>
+							<li>:disabled</li>
+							<li>:enabled</li>
+							<li>:checked</li>
+							<li>:focus</li>
+						</ul>
+					</section>
+					<section>
+						<h3>other</h3>
+						<ul>
+							<li>:first-child</li>
+							<li>:last-child</li>
+							<li>:nth-child(n)</li>
+							<li>:not(selector)</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
+					<section>
+						<h3>PSEUDO ELEMENTS</h3>
+						<ul>
+							<li>::before</li>
+							<li>::after</li>
+							<li>::first-letter</li>
+							<li>::first-line</li>
+						</ul>
+					</section>
+					<section>
+						<h3>content</h3>
+						<p class="highlight-blue">before与after只有设置content属性，伪元素才会生效</p>
+					</section>
+					<style>
+							.cp1::before {
+								content:"“";
+							}
+							.cp1::after {
+								content: "”"
+							}
+					</style>
+					<section data-markdown>
+						<script type="text/template">
+							###USE
 
+							```css
+							.cp1::before {
+								content:"“";
+							}
+							.cp1::after {
+								content: "”"
+							}
+
+							```
+						</script>
+						<div class="fragment roll-in cp1">content</div>
+
+					</section>
+				</section>
 				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
+					<h2>CSS HACK</h2>
 					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li>-moz-*</li>
+						<li>-webkit-</li>
+						<li>-ms-</li>
 					</ul>
 				</section>
 
 				<section style="text-align: left;">
 					<h1>THE END</h1>
 					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						- <a href="http://www.w3schools.com">W3 School</a>
 					</p>
 				</section>
 

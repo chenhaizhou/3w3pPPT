@@ -1139,3 +1139,18 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.t-gray {
+  color:#999;
+}
+
+.logo {
+  font-weight: 100!important;
+}
+.logo strong {
+    font-weight: 700!important;
+  }
+
+h1 {
+  font-family: "Open Sans","Microsoft YaHei","Hiragino Sans GB","Hiragino Sans GB W3","微软雅黑","Helvetica Neue",Arial,sans-serif !important;
+}
